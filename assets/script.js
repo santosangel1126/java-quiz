@@ -7,7 +7,7 @@ var answerButtons = document.querySelector(".answer-buttons");
 var answerBtn = document.querySelector(".btn");
 var btn;
 var countDown = document.querySelector("#timer");
-var timeLeft = 75;
+var timeLeft = 100;
 var questionCounter = 0;
 var timerInterval;
 // initiate the quiz
@@ -115,14 +115,14 @@ startButton.addEventListener("click", function () {
                 wrongAlert.id = "wrong";
                 wrongAlert.textContent = "Wrong!";
                 answerButtons.append(wrongAlert);
-                timeLeft = timeLeft - 10;
+                timeLeft = timeLeft - 5;
             } else {
                 wrong.remove();
                 var wrongAlert = document.createElement("p");
                 wrongAlert.id = "wrong";
                 wrongAlert.textContent = "Wrong!";
                 answerButtons.append(wrongAlert);
-                timeLeft = timeLeft - 10;
+                timeLeft = timeLeft - 5;
             }
         }
     });

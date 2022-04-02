@@ -1,67 +1,71 @@
-
-   
-*, *::before, *::after {
-    box-sizing: border-box;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-
-container {
-    padding: 0;
-    margin: 0;
-    width: 100vw;
-    height: 85vh;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    text-align: center;
-}
-
-.high {
-    padding: 0;
-    margin-top: 25%;
-
-}
-
-.high-scores {
-    margin-top: 25%;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    bottom: 30px;
-}
-.highscores {
-    align-items: center;
-    text-align: center;
-    position: relative;
-    bottom:50px;
-}
-
-.done {
-    text-align: center;
-    position: relative;
-    bottom: 120px;
-}
-
-
-.btn-grid {
-    display: grid;
-    gap: 10px;
-    margin:20px;
-}
-
-.btn {
-    background-color: rgb(144, 216, 218);
-    border-radius: 10px;
-    padding: 15px;
-}
-
-.btn:hover {
-    background-color: chartreuse;
-    opacity: 5;
-}
-
-.scores {
-    position:relative;
-    bottom: 25px;;
+ .header { 
+     background-color: beige;
+     
+ }
+ 
+ *, *::before, *::after {
+        box-sizing: border-box;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    
+    
+    container {
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+        height: 85vh;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .high {
+        padding: 0;
+        margin-top: 25%;
+    
+    }
+    
+    .high-scores {
+        margin-top: 25%;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        bottom: 30px;
+    }
+    .highscores {
+        align-items: center;
+        text-align: center;
+        position: relative;
+        bottom:50px;
+    }
+    
+    .done {
+        text-align: center;
+        position: relative;
+        bottom: 120px;
+    }
+    
+    
+    .btn-grid {
+        display: grid;
+        gap: 10px;
+        margin:20px;
+    }
+    
+    .btn {
+        background-color: rgb(213, 81, 81);
+        border-radius: 10px;
+        padding: 15px;
+    }
+    
+    .btn:hover {
+        background-color: grey;
+        opacity: 5;
+    }
+    
+    .scores {
+        position:relative;
+        bottom: 25px;;
+    };
 }
