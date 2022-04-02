@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Java-Quiz</title>
+</head>
+
+<header>
+    <container>
+    <section class="header">
+        <section class="high-score">
+            <a href="highscores.html">View High Scores</a>
+        </section>
+        <div id="countdown">
+            <p id="timer">Timer</p>
+        </div>
+
+        <section class="intro">
+            <h1>Coding Quiz Challenge</h1>
+            <p>
+                Try to answer the following code related questions within the time
+                limit. <br />Keep in mind that incorrect answers will penalize your
+                score time by ten seconds!
+            </p>
+
+            <button id="start-Btn" class="btn">Start Quiz!</button>
+        </section>
+
+        <section class="quiz-section">
+            <section class="questions"></section>
+            <ol class="answer-buttons btn-grid"></ol>
+        </section>
+    </section>
+    </container>
+</header>
+
+<script src="./assets/script.js"></script>
+
+</html>
